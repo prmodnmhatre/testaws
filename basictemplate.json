@@ -66,8 +66,8 @@
                     "apigateway:DELETE",
                     "apigateway:PUT",   
                     "apigateway:POST",
-                    "apigateway:GET"]
-                   }, "Resource": "*"
+                    "apigateway:GET"],"Resource": "*"
+                   }, 
                                 {
                                     "Effect": "Deny",
                                     "Action": [
