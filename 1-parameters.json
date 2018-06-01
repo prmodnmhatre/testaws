@@ -1,0 +1,12 @@
+"Parameters": {
+    "gitHubCloneURL": {
+        "Description": "The clone URL of the GitHub repo",
+        "Type": "String"
+    },
+    "codeBuildImage": {
+        "Description": "The image to use when running code bulid, e.g. aws/codebuild/java:openjdk-8",
+        "Type": "String",
+        "Default":"aws/codebuild/java:openjdk-8"
+    }
+
+}
